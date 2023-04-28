@@ -1,0 +1,65 @@
+
+# string methods
+
+#1. count()
+
+'''
+str1 = "hello hi"
+print(str1.count('h'))
+
+str2 = "some text some"
+print(str2.count('some'))
+
+str3 = "hello"
+print(str3.count('p'))
+'''
+
+#2. find()
+
+'''
+str1 = "hello"
+print(str1.find('l'))
+
+str2 = "hello"
+print(str2.find('m'))
+
+str3 = "hi hello, good morning"
+print(str3.find('good'))
+'''
+
+#3. rfind()
+
+'''
+str1 = "hello hi"
+print(str1.rfind('h'))
+
+str2 = "hi hello good hi"
+print(str2.rfind('i'))
+
+str3 = "some text some"
+print(str3.rfind('g'))
+'''
+
+#4. index()
+
+'''
+str1 = "hello"
+print(str1.index('h'))
+
+str2 = "some text some"
+print(str2.index('some'))
+
+str3 = "good morning"
+print(str3.index('k'))
+'''
+
+#5. rindex()
+
+str1 = "hello hi"
+print(str1.rindex('h'))
+
+str2 = "some text some"
+print(str2.rindex('some'))
+
+str3 = "good morining"
+print(str3.rindex('p'))
